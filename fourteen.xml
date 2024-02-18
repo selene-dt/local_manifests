@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="selene-dt"
+           fetch="https://github.com/selene-dt"
+           revision="lineage-21"/>
+
+ <!-- Device Trees -->
+  <project path="device/xiaomi/selene" name="android_device_xiaomi_selene" remote="selene-dt" revision="lineage-21"/>
+
+ <!-- Kernel -->
+  <project path="device/xiaomi/selene-kernel" name="android_device_xiaomi_selene-kernel" remote="selene-dt" revision="lineage-20"/>
+
+ <!-- Vendor Trees -->
+  <project path="vendor/xiaomi/selene" name="android_vendor_xiaomi_selene" remote="selene-dt" revision="lineage-21"/>
+
+ <!-- Firmware Trees -->
+  <project path="vendor/xiaomi/selene-firmware" name="android_vendor_xiaomi_selene-firmware" remote="selene-dt" revision="lineage-20"/>
+
+ <!-- Extras -->
+  <project path="device/mediatek/sepolicy_vndr" name="dm700-devs/android_device_mediatek_sepolicy_vndr" remote="github" revision="lineage-21"/>
+  <project path="hardware/mediatek" name="PQEnablers-Devices/android_hardware_mediatek" remote="github" revision="lineage-21"/>
+  <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" remote="github" revision="lineage-21"/>
+
+</manifest>
